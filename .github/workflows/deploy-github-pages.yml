@@ -16,23 +16,23 @@ env:
   NG_USE_Q_AND_A_SEARCH: 'true'
   #
   # For demo-purpose only: A highly visible label to show instance name/version
-  ENV_NAME: ''
+  ENV_NAME: 'demo'
   #
   # ###########################################################################
   # TEXT CONTENT:
   # ###########################################################################
   #
   # A (short) name, visible in the top (navigation-)bar and in the browser's tab/window-title (and search-engine results)
-  TXT_APP_NAME: ''
+  TXT_APP_NAME: 'HIA Demo of Daan'
   # An absolute/data-URL to an image, visible in the top (navigation-)bar
-  TXT_APP_LOGO_URL: ''
+  TXT_APP_LOGO_URL: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Beeldmerk_van_het_Nederlandse_Rode_Kruis.svg/1280px-Beeldmerk_van_het_Nederlandse_Rode_Kruis.svg.png'
   # The first heading, (only) visible on the main-page
-  TXT_MAIN_PAGE_HEADER: ''
+  TXT_MAIN_PAGE_HEADER: 'This is the header'
   # The (optional) introduction text, (only) visible on the main-page.
   # Can be multiple-lines of Markdown syntax or contain some HTML. Newlines need to be specified with `\n` or `<br />`.
   TXT_MAIN_PAGE_INTRO: >-
-    \n
-    \n
+    Intro text \n
+    new line \n
   #
   # An (optional) notice on the bottom of the screen, can be overwritten by the sheet.
   # Will override the (optional) bottom-right "Contact"-buttons from the sheet.
@@ -67,7 +67,7 @@ env:
     Information
   # The ID of the Google Sheet(s) that contains the content for the region
   REGIONS_SHEET_IDS: >-
-    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    1PFMX4j50J0wNEtJxMhpp8trnIW2FN0fBZYnsKWxrxrg
 
 # #############################################################################
 #
